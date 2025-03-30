@@ -37,5 +37,11 @@ namespace ibtracker2
             calculator Calc = new calculator();
             Calc.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            calendar Cal = new calendar();
+            Cal.Show();
+        }
     }
 }
