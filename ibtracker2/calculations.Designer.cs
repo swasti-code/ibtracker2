@@ -36,26 +36,27 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtGroup1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtGroup2 = new System.Windows.Forms.TextBox();
+            this.txtGroup3 = new System.Windows.Forms.TextBox();
+            this.txtGroup4 = new System.Windows.Forms.TextBox();
+            this.txtGroup5 = new System.Windows.Forms.TextBox();
+            this.txtGroup6 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtTOK = new System.Windows.Forms.TextBox();
+            this.txtEE = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.corePoints = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtCorePoints = new System.Windows.Forms.TextBox();
             this.totalPoints = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.txtTotalPoints = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtDipolma = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -137,40 +138,40 @@
             this.txtGroup1.Size = new System.Drawing.Size(400, 31);
             this.txtGroup1.TabIndex = 7;
             // 
-            // textBox2
+            // txtGroup2
             // 
-            this.textBox2.Location = new System.Drawing.Point(259, 368);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(400, 31);
-            this.textBox2.TabIndex = 8;
+            this.txtGroup2.Location = new System.Drawing.Point(259, 368);
+            this.txtGroup2.Name = "txtGroup2";
+            this.txtGroup2.Size = new System.Drawing.Size(400, 31);
+            this.txtGroup2.TabIndex = 8;
             // 
-            // textBox3
+            // txtGroup3
             // 
-            this.textBox3.Location = new System.Drawing.Point(259, 451);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(400, 31);
-            this.textBox3.TabIndex = 9;
+            this.txtGroup3.Location = new System.Drawing.Point(259, 451);
+            this.txtGroup3.Name = "txtGroup3";
+            this.txtGroup3.Size = new System.Drawing.Size(400, 31);
+            this.txtGroup3.TabIndex = 9;
             // 
-            // textBox4
+            // txtGroup4
             // 
-            this.textBox4.Location = new System.Drawing.Point(892, 286);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(400, 31);
-            this.textBox4.TabIndex = 10;
+            this.txtGroup4.Location = new System.Drawing.Point(892, 286);
+            this.txtGroup4.Name = "txtGroup4";
+            this.txtGroup4.Size = new System.Drawing.Size(400, 31);
+            this.txtGroup4.TabIndex = 10;
             // 
-            // textBox5
+            // txtGroup5
             // 
-            this.textBox5.Location = new System.Drawing.Point(892, 368);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(400, 31);
-            this.textBox5.TabIndex = 11;
+            this.txtGroup5.Location = new System.Drawing.Point(892, 368);
+            this.txtGroup5.Name = "txtGroup5";
+            this.txtGroup5.Size = new System.Drawing.Size(400, 31);
+            this.txtGroup5.TabIndex = 11;
             // 
-            // textBox6
+            // txtGroup6
             // 
-            this.textBox6.Location = new System.Drawing.Point(892, 451);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(400, 31);
-            this.textBox6.TabIndex = 12;
+            this.txtGroup6.Location = new System.Drawing.Point(892, 451);
+            this.txtGroup6.Name = "txtGroup6";
+            this.txtGroup6.Size = new System.Drawing.Size(400, 31);
+            this.txtGroup6.TabIndex = 12;
             // 
             // label7
             // 
@@ -192,22 +193,23 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "EE:";
             // 
-            // textBox7
+            // txtTOK
             // 
-            this.textBox7.Location = new System.Drawing.Point(259, 532);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(400, 31);
-            this.textBox7.TabIndex = 15;
+            this.txtTOK.Location = new System.Drawing.Point(259, 532);
+            this.txtTOK.Name = "txtTOK";
+            this.txtTOK.Size = new System.Drawing.Size(400, 31);
+            this.txtTOK.TabIndex = 15;
             // 
-            // textBox8
+            // txtEE
             // 
-            this.textBox8.Location = new System.Drawing.Point(892, 521);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(400, 31);
-            this.textBox8.TabIndex = 16;
+            this.txtEE.Location = new System.Drawing.Point(892, 521);
+            this.txtEE.Name = "txtEE";
+            this.txtEE.Size = new System.Drawing.Size(400, 31);
+            this.txtEE.TabIndex = 16;
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(573, 697);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(236, 71);
@@ -226,12 +228,12 @@
             this.corePoints.TabIndex = 18;
             this.corePoints.Text = "Core Points:";
             // 
-            // textBox9
+            // txtCorePoints
             // 
-            this.textBox9.Location = new System.Drawing.Point(313, 814);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(400, 31);
-            this.textBox9.TabIndex = 19;
+            this.txtCorePoints.Location = new System.Drawing.Point(313, 814);
+            this.txtCorePoints.Name = "txtCorePoints";
+            this.txtCorePoints.Size = new System.Drawing.Size(400, 31);
+            this.txtCorePoints.TabIndex = 19;
             // 
             // totalPoints
             // 
@@ -259,22 +261,30 @@
             this.txtTotalPoints.Name = "txtTotalPoints";
             this.txtTotalPoints.Size = new System.Drawing.Size(400, 31);
             this.txtTotalPoints.TabIndex = 22;
+            this.txtTotalPoints.TextChanged += new System.EventHandler(this.txtTotalPoints_TextChanged);
             // 
-            // textBox10
+            // txtDipolma
             // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(823, 870);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(400, 56);
-            this.textBox10.TabIndex = 23;
+            this.txtDipolma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDipolma.Location = new System.Drawing.Point(823, 870);
+            this.txtDipolma.Name = "txtDipolma";
+            this.txtDipolma.Size = new System.Drawing.Size(400, 56);
+            this.txtDipolma.TabIndex = 23;
+            this.txtDipolma.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown1.Location = new System.Drawing.Point(259, 608);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(125, 44);
             this.numericUpDown1.TabIndex = 24;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label9
             // 
@@ -300,35 +310,52 @@
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown2.Location = new System.Drawing.Point(892, 603);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(125, 44);
             this.numericUpDown2.TabIndex = 27;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(1194, 950);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(167, 53);
+            this.button3.TabIndex = 28;
+            this.button3.Text = "Reset";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // calculations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1414, 1033);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtDipolma);
             this.Controls.Add(this.txtTotalPoints);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.totalPoints);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtCorePoints);
             this.Controls.Add(this.corePoints);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtEE);
+            this.Controls.Add(this.txtTOK);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtGroup6);
+            this.Controls.Add(this.txtGroup5);
+            this.Controls.Add(this.txtGroup4);
+            this.Controls.Add(this.txtGroup3);
+            this.Controls.Add(this.txtGroup2);
             this.Controls.Add(this.txtGroup1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -356,25 +383,26 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtGroup1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtGroup2;
+        private System.Windows.Forms.TextBox txtGroup3;
+        private System.Windows.Forms.TextBox txtGroup4;
+        private System.Windows.Forms.TextBox txtGroup5;
+        private System.Windows.Forms.TextBox txtGroup6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtTOK;
+        private System.Windows.Forms.TextBox txtEE;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label corePoints;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCorePoints;
         private System.Windows.Forms.Label totalPoints;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtTotalPoints;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtDipolma;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.Button button3;
     }
 }
