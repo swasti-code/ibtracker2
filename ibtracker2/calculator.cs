@@ -124,5 +124,11 @@ namespace ibtracker2
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            calculations calc2 = new calculations();
+            calc2.Show();
+        }
     }
 }

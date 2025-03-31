@@ -16,7 +16,7 @@ namespace ibtracker2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new calculations());
+            Application.Run(new LoginPage());
         }
     }
 }

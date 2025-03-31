@@ -43,5 +43,11 @@ namespace ibtracker2
             calendar Cal = new calendar();
             Cal.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CAS cas = new CAS();
+            cas.Show();
+        }
     }
 }

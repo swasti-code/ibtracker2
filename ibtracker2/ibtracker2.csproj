@@ -81,6 +81,12 @@
     <Compile Include="calendar.Designer.cs">
       <DependentUpon>calendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="CAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAS.Designer.cs">
+      <DependentUpon>CAS.cs</DependentUpon>
+    </Compile>
     <Compile Include="EventForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="calendar.resx">
       <DependentUpon>calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAS.resx">
+      <DependentUpon>CAS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EventForm.resx">
       <DependentUpon>EventForm.cs</DependentUpon>
