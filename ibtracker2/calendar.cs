@@ -56,7 +56,7 @@ namespace ibtracker2
             {
                 UserControlBlank ucblank = new UserControlBlank();
                 daycontainer.Controls.Add(ucblank);
-                daycontainer.Show ();
+                daycontainer.Show();
             }
 
             for (int i = 1; i <= days; i++)
@@ -155,6 +155,15 @@ namespace ibtracker2
 
             daycontainer.Refresh();
 
+        }
+
+        public void LoadEvents()
+        {
+            // Clear existing events
+            daycontainer.Controls.Clear();
+
+            // Reload events
+            displaDays();
         }
     }
 }

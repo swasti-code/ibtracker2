@@ -199,6 +199,7 @@
             this.txtTOK.Name = "txtTOK";
             this.txtTOK.Size = new System.Drawing.Size(400, 31);
             this.txtTOK.TabIndex = 15;
+            this.txtTOK.TextChanged += new System.EventHandler(this.txtTOK_TextChanged);
             // 
             // txtEE
             // 

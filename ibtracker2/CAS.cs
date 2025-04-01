@@ -81,5 +81,10 @@ namespace ibtracker2
             Form1 f1 = new Form1();
             f1.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

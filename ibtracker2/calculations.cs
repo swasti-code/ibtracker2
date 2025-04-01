@@ -152,5 +152,10 @@ namespace ibtracker2
         {
 
         }
+
+        private void txtTOK_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

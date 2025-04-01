@@ -36,25 +36,38 @@ public partial class EventForm : Form
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtEvent.Text) || string.IsNullOrWhiteSpace(txtDate.Text))
+            {
+                MessageBox.Show("Event Name and Date cannot be empty.");
+                return;
+            }
+
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 conn.Open();
                 String sql = "INSERT INTO Events_Table (EventName, EventDate) VALUES (@Event, @Date)";
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
-                    cmd.Parameters.AddWithValue("Event", txtEvent.Text);
+                    cmd.Parameters.AddWithValue("@Event", txtEvent.Text);
                     cmd.Parameters.AddWithValue("@Date", txtDate.Text);
-          
+                    cmd.ExecuteNonQuery();
+
                     MessageBox.Show("Event Saved");
-                    cmd.Dispose();
-                    conn.Close();
                 }
             }
+            UpdateCalendar();
         }
 
         private void txtDate_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void UpdateCalendar()
+        {
+            
+            calendar calendarInstance = new calendar();
+            calendarInstance.LoadEvents();
         }
     }
 }
